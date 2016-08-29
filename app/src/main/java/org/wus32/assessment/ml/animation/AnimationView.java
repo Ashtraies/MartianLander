@@ -42,9 +42,14 @@ public class AnimationView extends SurfaceView implements SurfaceHolder.Callback
 
   @Override
   public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
+    stop();
+  }
+
+  public void stop() {
     boolean retry = true;
-    while(retry) {
+    while (retry) {
       try {
+        thread.setRunning(false);
         thread.join();
         retry = false;
       } catch (InterruptedException e) {

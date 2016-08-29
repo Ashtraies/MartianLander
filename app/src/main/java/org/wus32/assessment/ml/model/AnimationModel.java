@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 
 import org.wus32.assessment.ml.R;
@@ -19,9 +20,9 @@ public class AnimationModel {
 
   private Bitmap craft;
 
-  private float craftX,craftY;
+  private float craftX, craftY;
 
-  private float velX,velY;
+  private float velX = 10f, velY = 10f;
 
   public AnimationModel(Context ctx) {
     this.ctx = ctx;
@@ -38,6 +39,8 @@ public class AnimationModel {
   }
 
   public void draw(Canvas canvas) {
-  canvas.drawBitmap(craft,craftX,craftY,new Paint());
+//    canvas.drawBitmap(loadImageById(R.drawable.mars),0,0,null);
+    canvas.drawColor(Color.BLACK);
+    canvas.drawBitmap(craft,craftX,craftY,null);
   }
 }
