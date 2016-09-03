@@ -1,9 +1,9 @@
-package org.wus32.assessment.ml.thread;
+package org.wus32.assessment.ml.view;
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
 
-import org.wus32.assessment.ml.animation.AnimationView;
+import org.wus32.assessment.ml.view.AnimationView;
 
 /**
  * Martian Lander

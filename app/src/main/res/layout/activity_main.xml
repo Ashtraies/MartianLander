@@ -4,6 +4,40 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@drawable/mars"
 	tools:context=".activity.MainActivity">
+	<org.wus32.assessment.ml.view.AnimationView
+		android:id="@+id/main_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+	<LinearLayout
+		android:id="@+id/main_control_panel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/main_controller_left"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Left"/>
+		<Button
+			android:id="@+id/main_controller_right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Right"/>
+		<Button
+			android:id="@+id/main_controller_up"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Up"/>
+		<Button
+			android:id="@+id/main_controller_down"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="down"/>
+	</LinearLayout>
 </RelativeLayout>
