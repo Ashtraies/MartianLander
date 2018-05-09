@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--level-->
+	<!--the number of terrain's sections -->
+	<integer name="terrain_sections_e">5</integer>
+	<integer name="terrain_sections_n">7</integer>
+	<integer name="terrain_sections_h">9</integer>
+	<!--the number of terrain's sections -->
+	<!--the number of terrain's flat sections -->
+	<integer name="terrain_flat_e">1</integer>
+	<integer name="terrain_flat_n">2</integer>
+	<integer name="terrain_flat_h">3</integer>
+	<!--the number of terrain's flat sections -->
+	<!--the max and min height of terrain -->
+	<integer name="terrian_min_height_e">200</integer>
+	<integer name="terrian_min_height_n">250</integer>
+	<integer name="terrian_min_height_h">300</integer>
+	<integer name="terrian_max_height_e">300</integer>
+	<integer name="terrian_max_height_n">350</integer>
+	<integer name="terrian_max_height_h">500</integer>
+	<!--the max and min height of terrain -->
+	<!--the max amount of fuel -->
+	<integer name="max_fuel_e">300</integer>
+	<integer name="max_fuel_n">200</integer>
+	<integer name="max_fuel_h">100</integer>
+	<!--the max amount of fuel -->
+	<!--gravity-->
+	<integer name="rocket_gravity_e">3</integer>
+	<integer name="rocket_gravity_n">5</integer>
+	<integer name="rocket_gravity_h">7</integer>
+	<!--level-->
+	<integer name="fuel_per_consume">1</integer>
+	<integer name="rocket_boost_x">5</integer>
+	<integer name="rocket_boost_y">5</integer>
+
+
+	<integer name="thread_refresh_rate">20</integer>
+</resources>
