@@ -9,16 +9,6 @@ import org.wus32.assessment.ml.controller.MainController;
 import org.wus32.assessment.ml.util.Dialog;
 import org.wus32.assessment.ml.util.LevelSelector;
 import org.wus32.assessment.ml.view.AnimationView;
-/**
- * The portal of this game.
- * 1.Set the layout,get the main view,and buttons.
- * 2.Bind the reset function to the button.
- * 3.Show the dialog to let the player choose a level to start the game.
- * 4.When the activity is onPause or onDestroy,stop the main game loop,through call the
- * stop method of AnimationView
- *
- * @see AnimationView
- */
 
 /**
  * MartianLander
